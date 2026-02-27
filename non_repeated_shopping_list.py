@@ -1,18 +1,18 @@
 new_items =[]
 items = \
-["süt"
+["milk"
 ,
-"ekmek"
+"bread"
 ,
-"süt"
+"milk"
 ,
-"peynir"
+"cheese"
 ,
-"ekmek"
+"bread"
 ,
-"yoğurt"]
+"yogurt"]
 for item in items:
     if item not in new_items:
      new_items.append(item)
-print("Tekrarsız veriler kaldırılmıştır.",new_items)
-print("Tekrarsız veriler kaldırılmamıştır.",items)
+print("Duplicate data has been removed..",new_items)
+print("Duplicate data was not deleted..",items)
