@@ -16,7 +16,6 @@ students = [
     {"name": "Mert", "score": 74},
     {"name": "Ece", "score": 90},
     {"name": "AAli", "score": 92},
-
     {"name": "Kaan", "score": 79}
 ]
 for student in students:
@@ -30,4 +29,3 @@ for student in students:
         student_info.append(student)
 
 print(sorted(student_info, key=lambda x: x["name"]))
-

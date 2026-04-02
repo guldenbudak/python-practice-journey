@@ -28,6 +28,6 @@ for car in cars:
     daily = car["daily"]
     days = car["days"]
     total = daily * days
-    print("Total fee :",total)
+    print("Total fee :", total)
     cars_fees_total += total
-print("Cars fees total :",cars_fees_total)
+print("Cars fees total :", cars_fees_total)

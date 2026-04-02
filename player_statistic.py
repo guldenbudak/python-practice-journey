@@ -30,24 +30,34 @@ highest_score = 0
 lowest_score = 10000000000
 highest = []
 lowest = []
+# en büyük ve en küçük gol sayılarını bulduk
 for key, item in goals.items():
+
     sum_goal = sum(item)
     name = key
     total_goals[name] = sum_goal
     if sum_goal > highest_score:
         highest_score = sum_goal
+
     if sum_goal < lowest_score:
         lowest_score = sum_goal
+
+# en büyük değerleri dict şeklinde listeye ekledik
 for key, item in goals.items():
+
     sum_goal = sum(item)
     name = key
     if sum_goal == highest_score:
         highest.append({name: sum_goal})
+
+# en küçük değerleri dict şeklinde listeye ekledik
 for key, item in goals.items():
+
     sum_goal = sum(item)
     name = key
     if sum_goal == lowest_score:
         lowest.append({name: sum_goal})
+
 print(highest)
 print(lowest)
 print(total_goals)
