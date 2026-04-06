@@ -14,3 +14,20 @@ Python öğrenme sürecimde çözdüğüm 30 gerçek hayat problemi.
 
 ```bash
 python dosya_adi.py
+
+# 📞 Telefon Rehberi
+
+Kullanıcının kendi rehberini oluşturup isme göre numara sorgulayabildiği interaktif bir Python programı.
+
+## 📚 Konular
+
+- Sözlük (dict) kullanımı
+- Kullanıcıdan veri alma (input)
+- Döngü ile veri ekleme
+- Koşullu ifadeler ile sorgulama
+
+## 🚀 Çalıştırma
+
+```bash
+python phone_book_search.py
+
